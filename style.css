@@ -53,13 +53,15 @@ div#top-banner-left {
 }
 
 div#top-banner-right {
+    display: flex;
     padding: 1rem;
 }
 
 div#cartaofrente {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    padding: 0 5rem;
 }
 
 div#main-text {
@@ -68,7 +70,7 @@ div#main-text {
     color: #E51D37;
     font-size: small;
     flex-direction: column;
-    padding: 5rem;
+    padding: 0 5rem;
     font-size: 3rem;
 }
 
@@ -82,3 +84,28 @@ div#login-icon {
     padding: 0 0 0 20rem;
     margin: 0;
 }
+
+p#main-text-subtitle{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
+    
+    margin: 0;
+}
+
+button#main-text-button{
+    display: flex;
+    align-items: center;
+    background: #E51D37;
+    border: none;
+    width: 20%;
+    font-family: 'Inter', 'Arial';
+    font-weight: 600;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
